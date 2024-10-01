@@ -55,7 +55,14 @@ public class datatypes {
         } catch (NumberFormatException e) {
             System.out.println("Неправильний long.");
         }
-    
+       
+        //Булінгове значеня
+        System.out.println("Введеня бульового значеня (true/false): ");
+        String booleanInput = scanner.nextLine();
+        boolean booleanValue = Boolean.parseBoolean(booleanInput);
+        System.out.println("Введений boolean: " + booleanValue);
+        scanner.close();
+    }    
         //Іерогліф
         System.out.println("Введеня символу (char): ");
         String charInput = scanner.nextLine();
@@ -65,14 +72,6 @@ public class datatypes {
         } else {
             System.out.println("Не той іерогліф.");
         }
-      
-        //Булінгове значеня
-        System.out.println("Введеня бульового значеня (true/false): ");
-        String booleanInput = scanner.nextLine();
-        boolean booleanValue = Boolean.parseBoolean(booleanInput);
-        System.out.println("Введений boolean: " + booleanValue);
-        scanner.close();
-    }
       
     //Прімітівні типи даних
     public static void printdatatypes() {
