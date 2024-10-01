@@ -11,12 +11,12 @@ public class Main {
         //Числоль с крапочкою
         System.out.print("Введеня числа з крапочкою (double): ");
         double b = Double.parseDouble(scanner.nextLine());
-        //строчечка
-        System.out.print("Введеня строчки: ");
-        String c = scanner.nextLine();
         //Буллінг Значення
         System.out.print("Введеня бул. значеня (true/false): ");
         boolean d = Boolean.parseBoolean(scanner.nextLine());
+        //строчечка
+        System.out.print("Введеня строчки: ");
+        String c = scanner.nextLine();
 
         System.out.println("Виведеня значенЬ:");
         System.out.printf("Число (8): %o%n", a);
