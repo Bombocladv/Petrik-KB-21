@@ -7,16 +7,16 @@ public class Main {
         System.out.println("Введення:");
         //Числоль
         System.out.print("Введеня числа (int): ");
-        int a = Integer.parseInt(scanner.nextLine());
+        int i = Integer.parseInt(scanner.nextLine());
         //Числоль с крапочкою
         System.out.print("Введеня числа з крапочкою (double): ");
-        double b = Double.parseDouble(scanner.nextLine());
+        double d = Double.parseDouble(scanner.nextLine());
         //Буллінг Значення
         System.out.print("Введеня бул. значеня (true/false): ");
-        boolean d = Boolean.parseBoolean(scanner.nextLine());
+        boolean b = Boolean.parseBoolean(scanner.nextLine());
         //строчечка
         System.out.print("Введеня строчки: ");
-        String c = scanner.nextLine();
+        String s = scanner.nextLine();
 
         System.out.println("Виведеня значенЬ:");
         System.out.printf("Число (8): %o%n", a);
